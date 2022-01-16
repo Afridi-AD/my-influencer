@@ -1,7 +1,11 @@
+/* --------------
+----common css---- */
 body{
     font-family: 'Poppins', sans-serif;
 }
 
+/* --------------
+----header section---- */
 .container{
     display: flex;
 }
@@ -11,7 +15,8 @@ body{
 
     
 }
-
+/* --------------
+----Banner section---- */
 .banner-info h1{
         font-size: 30px;
         font-weight: 500;
@@ -20,9 +25,10 @@ body{
     margin: 30px 60px;
 }
 .banner-info button{
-    background-color: rgb(219, 51, 21);
-    padding: 15px;
+    background-color: #ee4a73;
+    padding: 18px;
     border-radius: 15px;
+    color: #fff;
     
 
 }
@@ -68,24 +74,40 @@ body{
 .fas.fa-star{
     color:rgb(216, 163, 18);
     font-size: 12px;
-    
+
+}
+.see-more a{
+    width: 100%;
+    text-align: end;
+    color: #ee4a73;
+    font-size: 25px;
+    text-decoration: none;
 }
 /* --------------
 ----footer section---- */
 .footer{
+    text-align: center;
     background-color: black;
     color: #fff;
     text-align: center;
     margin: 40px 40px;
 }
+.container{
+    
+}
+.footer h1{
+    margin-top: 20px;
+}
 .footer-section{
     margin-top: 20px;
+    margin-bottom: 20px;
+    
 }
 .footer a{
     color: #fff;
 }
 .social{
     font-size: 20px;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
