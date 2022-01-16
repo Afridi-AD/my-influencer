@@ -70,3 +70,22 @@ body{
     font-size: 12px;
     
 }
+/* --------------
+----footer section---- */
+.footer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    margin: 40px 40px;
+}
+.footer-section{
+    margin-top: 20px;
+}
+.footer a{
+    color: #fff;
+}
+.social{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
